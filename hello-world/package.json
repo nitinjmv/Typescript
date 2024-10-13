@@ -1,0 +1,17 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "nodemon --watch src/** --ext ts,json --ignore src/**/*.spec.ts --exec ts-node src/index.ts",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "typescipt": "^1.0.0"
+  }
+}
